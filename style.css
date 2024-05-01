@@ -1,0 +1,53 @@
+h1
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+
+}
+body
+{ background-image: url(backdrgound/5e9ee625f94bafda3a76693c8744e871.jpg);
+    background-repeat: none;
+    background-size: 100%;
+    background-position: center;
+
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+.navbar a{
+    color: rgb(17, 1, 1);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: aliceblue;
+
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+.parallax{
+    /* the image used*/
+    background-image: url("backdrgound/OIP.jpg");
+    opacity: 0.8;
+
+    /* set a specific height*/
+    min-height: 600px;
+
+    /* Create parallax scrolling effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
